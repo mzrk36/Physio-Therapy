@@ -4,7 +4,7 @@
   "description": "Spine Care Physiotherapy Quetta",
   "main": "index.html",
   "scripts": {
-    "build": "echo \"No build step needed for static HTML site\"",
+    "build": "rm -rf public && mkdir -p public && cp -rf *.html assets components css js *.jpg *.jpeg *.webp *.pdf public/ 2>/dev/null || true",
     "start": "echo \"No start script needed\""
   },
   "engines": {
