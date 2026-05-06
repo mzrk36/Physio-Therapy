@@ -1,0 +1,13 @@
+{
+  "name": "spine-care-physiotherapy",
+  "version": "1.0.0",
+  "description": "Spine Care Physiotherapy Quetta",
+  "main": "index.html",
+  "scripts": {
+    "build": "echo \"No build step needed for static HTML site\"",
+    "start": "echo \"No start script needed\""
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
